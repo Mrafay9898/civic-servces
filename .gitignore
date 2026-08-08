@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# DB and local models
+database/civic_services.db
+# models/*.pkl  <-- intentionally NOT ignored so models are deployed to Streamlit Cloud
+
+# Streamlit config/logs
+.streamlit/
+*.log
